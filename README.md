@@ -22,7 +22,7 @@ import { HttpLocales } from "http-locales"
 await HttpLocales.load()
 ```
 
-## HttpLocalesContext.run(lang  callback)
+## HttpLocalesContext.run(lang,callback)
 
 Create the AsyncLocaleStorage containing a lang. 
 
