@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Simple way to manage translations in Node JS apps. ",
   "main": ".dist/index.js",
+  "repository": "https://github.com/2-towns/http-locales",
   "scripts": {
     "watch": "tsc --watch",
     "pretest": "tsc",

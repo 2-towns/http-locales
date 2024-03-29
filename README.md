@@ -1,6 +1,6 @@
 # http locales
 
-Simple pacjage to manage translations in Node JS apps wyth AsyncLocalStorage api. 
+Simple package to manage translations in Node JS apps wyth AsyncLocalStorage api. 
 
 # Installation 
 
@@ -14,7 +14,7 @@ npm install http-locales
 
 ## HttpLocales.load()
 
-Load the translations files inside the default folder `locales`. It can be changed using the env variable: process.env.HTTP_LOCALES_folder.
+Load the translations files inside the default folder `locales`. It can be changed using the env variable: process.env.HTTP_LOCALES_FOLDER.
 
 ```js
 import { HttpLocales } from "http-locales" 
