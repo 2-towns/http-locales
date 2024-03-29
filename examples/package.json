@@ -1,0 +1,20 @@
+{
+  "name": "examples",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node --watch dist/index.js",
+    "watch": "tsc --watch"
+  },
+  "author": "Arnaud Deville",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-locales": "file:.."
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "http-locales",
+  "version": "0.0.1",
+  "description": "Simple way to manage translations in Node JS apps. ",
+  "main": ".dist/index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "pretest": "tsc",
+    "test": "node --test dist/index.spec.js"
+  },
+  "keywords": [
+    "node",
+    "i18n",
+    "http context"
+  ],
+  "files": [
+    ".dist"
+  ],
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "author": "Arnaud Deville",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18"
+  },
+  "engines": {
+    "node": ">= 18"
+  }
+}

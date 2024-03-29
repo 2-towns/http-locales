@@ -1,0 +1,4 @@
+{
+  "hello": "hello world !",
+  "with interpolation %s": "with interpolation %s"
+}
